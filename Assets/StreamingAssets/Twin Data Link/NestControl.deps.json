@@ -1,0 +1,484 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NestControl/1.0.0": {
+        "dependencies": {
+          "CavrnusSpatialConnector": "1.0.0",
+          "Google.Apis.Discovery.v1": "1.68.0",
+          "Google.Apis.SmartDeviceManagement.v1": "1.68.0.3244",
+          "Seam": "0.10.0"
+        },
+        "runtime": {
+          "NestControl.dll": {}
+        }
+      },
+      "Esprima/3.0.4": {
+        "runtime": {
+          "lib/netstandard2.1/Esprima.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "Google.Apis/1.68.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.68.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.68.0": {
+        "dependencies": {
+          "Google.Apis": "1.68.0",
+          "Google.Apis.Core": "1.68.0",
+          "System.Management": "7.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.68.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "Google.Apis.Discovery.v1/1.68.0": {
+        "dependencies": {
+          "Google.Apis": "1.68.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Discovery.v1.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "Google.Apis.SmartDeviceManagement.v1/1.68.0.3244": {
+        "dependencies": {
+          "Google.Apis": "1.68.0",
+          "Google.Apis.Auth": "1.68.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.SmartDeviceManagement.v1.dll": {
+            "assemblyVersion": "1.68.0.3244",
+            "fileVersion": "1.68.0.3244"
+          }
+        }
+      },
+      "Google.Protobuf/3.19.4": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.19.4.0",
+            "fileVersion": "3.19.4.0"
+          }
+        }
+      },
+      "Jint/3.0.1": {
+        "dependencies": {
+          "Esprima": "3.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Jint.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "JsonSubTypes/2.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JsonSubTypes.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Polly/7.2.4": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.4.982"
+          }
+        }
+      },
+      "RestSharp/110.2.0": {
+        "dependencies": {
+          "System.Text.Json": "7.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "110.2.0.0",
+            "fileVersion": "110.2.0.0"
+          }
+        }
+      },
+      "Seam/0.10.0": {
+        "dependencies": {
+          "JsonSubTypes": "2.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly": "7.2.4",
+          "RestSharp": "110.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Seam.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpZipLib/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.2.0.246",
+            "fileVersion": "1.2.0.246"
+          }
+        }
+      },
+      "System.CodeDom/7.0.0": {
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Management/7.0.2": {
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "7.0.0.2",
+            "fileVersion": "7.0.723.27404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.2",
+            "fileVersion": "7.0.723.27404"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/7.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Text.Json/7.0.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.323.6910"
+          }
+        }
+      },
+      "Base/1.0.0": {
+        "dependencies": {
+          "Jint": "3.0.1",
+          "SharpZipLib": "1.2.0"
+        },
+        "runtime": {
+          "Base.dll": {}
+        }
+      },
+      "CavrnusSpatialConnector/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0",
+          "CollabProxy": "1.0.0",
+          "LiveRoomSystem": "1.0.0"
+        },
+        "runtime": {
+          "CavrnusSpatialConnector.dll": {}
+        }
+      },
+      "CollabProxy/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0",
+          "Google.Protobuf": "3.19.4",
+          "Holo": "1.0.0",
+          "Jint": "3.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "RtcCommon": "1.0.0",
+          "SharpZipLib": "1.2.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "CollabProxy.dll": {}
+        }
+      },
+      "Holo/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0"
+        },
+        "runtime": {
+          "Holo.dll": {}
+        }
+      },
+      "HoloScript/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0",
+          "CollabProxy": "1.0.0",
+          "Google.Protobuf": "3.19.4",
+          "Holo": "1.0.0",
+          "Jint": "3.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "SharpZipLib": "1.2.0"
+        },
+        "runtime": {
+          "HoloScript.dll": {}
+        }
+      },
+      "LiveRoomSystem/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0",
+          "CollabProxy": "1.0.0",
+          "Google.Protobuf": "3.19.4",
+          "Holo": "1.0.0",
+          "HoloScript": "1.0.0",
+          "Jint": "3.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "RtcCommon": "1.0.0",
+          "SharpZipLib": "1.2.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "LiveRoomSystem.dll": {}
+        }
+      },
+      "RtcCommon/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "SharpZipLib": "1.2.0"
+        },
+        "runtime": {
+          "RtcCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NestControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esprima/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AIK0TpWPL/IvMX7tGq7CT486N8IG2XXtpZJYedJ+mjutUAFYRZaQjalaN7xiaV++cTMGyhc5bfK7Z8+qMfjh0w==",
+      "path": "esprima/3.0.4",
+      "hashPath": "esprima.3.0.4.nupkg.sha512"
+    },
+    "Google.Apis/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s2MymhdpH+ybZNBeZ2J5uFgFHApBp+QXf9FjZSdM1lk/vx5VqIknJwnaWiuAzXxPrLEkesX0Q+UsiWn39yZ9zw==",
+      "path": "google.apis/1.68.0",
+      "hashPath": "google.apis.1.68.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hFx8Qz5bZ4w0hpnn4tSmZaaFpjAMsgVElZ+ZgVLUZ2r9i+AKcoVgwiNfv1pruNS5cCvpXqhKECbruBCfRezPHA==",
+      "path": "google.apis.auth/1.68.0",
+      "hashPath": "google.apis.auth.1.68.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pAqwa6pfu53UXCR2b7A/PAPXeuVg6L1OFw38WckN27NU2+mf+KTjoEg2YGv/f0UyKxzz7DxF1urOTKg/6dTP9g==",
+      "path": "google.apis.core/1.68.0",
+      "hashPath": "google.apis.core.1.68.0.nupkg.sha512"
+    },
+    "Google.Apis.Discovery.v1/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4NfGdoEVJZpUIqXrMi4U3yAmnFc7FtCGMVA8cdYcYa4WYVM8GnqMNWU28dF10cn50csoiZUYsvuG4JxayXh5Tg==",
+      "path": "google.apis.discovery.v1/1.68.0",
+      "hashPath": "google.apis.discovery.v1.1.68.0.nupkg.sha512"
+    },
+    "Google.Apis.SmartDeviceManagement.v1/1.68.0.3244": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vih93IlkJsmAVdMpIHFOJ9rqUCgQdmwXQ+WKl8M5iy0AAutN/hyUjgcF+k/Y8Yn+R5o4cCkyEK10HP7DxCZj2g==",
+      "path": "google.apis.smartdevicemanagement.v1/1.68.0.3244",
+      "hashPath": "google.apis.smartdevicemanagement.v1.1.68.0.3244.nupkg.sha512"
+    },
+    "Google.Protobuf/3.19.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
+      "path": "google.protobuf/3.19.4",
+      "hashPath": "google.protobuf.3.19.4.nupkg.sha512"
+    },
+    "Jint/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X/aIRNWP1aDDt4Gw5yNNIp1qUMTaJIBNAMANCSWAoJtN1OSlLTkr0NuCjc7nLPx6TKwxybl4Rs1Tgd5va7yNrw==",
+      "path": "jint/3.0.1",
+      "hashPath": "jint.3.0.1.nupkg.sha512"
+    },
+    "JsonSubTypes/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Po+Ypf0SjCeEKx5+C89Nb5OgTcqNvfS3uTI46MUM+KEp6Rq/M0h+vVsTUt/6DFRwZMTpsAJM4yJrZmEObVANA==",
+      "path": "jsonsubtypes/2.0.1",
+      "hashPath": "jsonsubtypes.2.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Polly/7.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bw00Ck5sh6ekduDE3mnCo1ohzuad946uslCDEENu3091+6UKnBuKLo4e+yaNcCzXxOZCXWY2gV4a35+K1d4LDA==",
+      "path": "polly/7.2.4",
+      "hashPath": "polly.7.2.4.nupkg.sha512"
+    },
+    "RestSharp/110.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXGw0IMcqY7yO/hzS9QrD3iNswNgb9UxJnxWmfOxmGs4kRlZWqdtBoGPLuhlbgsDzX1RFo4WKui8TGGKXWKalw==",
+      "path": "restsharp/110.2.0",
+      "hashPath": "restsharp.110.2.0.nupkg.sha512"
+    },
+    "Seam/0.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZUq7aycQRa8GHx3zau3vzVrlOKH6gmDY+OiMtxgyeYzpfobifdvgu2VFhvedzY+LTDScmC4K4KK07k6RjmDhA==",
+      "path": "seam/0.10.0",
+      "hashPath": "seam.0.10.0.nupkg.sha512"
+    },
+    "SharpZipLib/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
+      "path": "sharpziplib/1.2.0",
+      "hashPath": "sharpziplib.1.2.0.nupkg.sha512"
+    },
+    "System.CodeDom/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "path": "system.codedom/7.0.0",
+      "hashPath": "system.codedom.7.0.0.nupkg.sha512"
+    },
+    "System.Management/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
+      "path": "system.management/7.0.2",
+      "hashPath": "system.management.7.0.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+      "path": "system.text.encodings.web/7.0.0",
+      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/LZf/JrGyilojqwpaywb+sSz8Tew7ij4K/Sk+UW8AKfAK7KRhR6mKpKtTm06cYA7bCpGTWfYksIW+mVsdxPegQ==",
+      "path": "system.text.json/7.0.2",
+      "hashPath": "system.text.json.7.0.2.nupkg.sha512"
+    },
+    "Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CavrnusSpatialConnector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CollabProxy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Holo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HoloScript/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiveRoomSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RtcCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
