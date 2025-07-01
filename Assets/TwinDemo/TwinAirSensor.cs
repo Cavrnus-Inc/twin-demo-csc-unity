@@ -1,4 +1,4 @@
-using CavrnusSdk.API;
+using Cavrnus.SpatialConnector.API;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
