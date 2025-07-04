@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.cavrnus.spatialconnector": "3.0.2",
+    "com.cavrnus.spatialconnector": "3.0.12",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.feature.development": "1.0.1",
