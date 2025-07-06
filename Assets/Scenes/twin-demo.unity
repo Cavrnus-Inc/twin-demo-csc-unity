@@ -18522,6 +18522,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 477648, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 3}
   m_PrefabInstance: {fileID: 138473692}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &139334808
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749188568939676982, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6002462806095298374, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
+      propertyPath: m_Name
+      value: PF_CavrnusUIManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a95bac72c4f2f3548b52477c055db052, type: 3}
 --- !u!1001 &139455326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62273,7 +62330,11 @@ PrefabInstance:
     - target: {fileID: 3843911914220772793, guid: bc329ed98d4c9a44a967d563bb09778d, type: 3}
       propertyPath: SpaceMenus.Array.data[1]
       value: 
-      objectReference: {fileID: 3018164821983743048, guid: d62d6b30640946640b371775db1e4ac3, type: 3}
+      objectReference: {fileID: 3402094535666968135, guid: 98005a9e4cc19af49b95749ffd21aa9b, type: 3}
+    - target: {fileID: 3843911914220772793, guid: bc329ed98d4c9a44a967d563bb09778d, type: 3}
+      propertyPath: AdditionalSettings.OpenAiApiKey
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4731373496736375337, guid: bc329ed98d4c9a44a967d563bb09778d, type: 3}
       propertyPath: m_Name
       value: Cavrnus Spatial Connector
@@ -304044,6 +304105,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 436695406}
+  - {fileID: 139334808}
   - {fileID: 1643596638}
   - {fileID: 537951061}
   - {fileID: 62046722}
